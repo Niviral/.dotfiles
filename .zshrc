@@ -11,6 +11,9 @@ setopt numericglobsort     # sort filenames numerically when it makes sense
 setopt promptsubst         # enable command substitution in prompt
 
 WORDCHARS=${WORDCHARS//\/} # Don't consider certain characters part of the word
+# sourcing .bash_aliases file
+source $HOME/.bash_aliases 
+
 
 # hide EOL sign ('%')
 PROMPT_EOL_MARK=""

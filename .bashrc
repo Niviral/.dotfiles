@@ -151,4 +151,3 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-alias jlab='source anaconda3/bin/activate && conda activate ML && jupyter lab'
