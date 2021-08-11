@@ -20,6 +20,8 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.condarc ~/.condarc
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/.bash_aliases ~/.bash_aliases
+ln -s ~/.dotfiles/settings_VScode.json /home/$USER/.config/Code/User/settings.json
+
 ```
 
 ## TODO List

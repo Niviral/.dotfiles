@@ -151,3 +151,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+complete -C /usr/bin/terraform terraform
