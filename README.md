@@ -12,16 +12,7 @@ git clone https://github.com/Niviral/dotFiles.git ~/.dotfiles
 2. Create symlinks in the Home directory to the real files in the repo.
 
 ```
-# There are better and less manual ways to do this;
-# investigate install scripts and bootstrapping tools.
-
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.condarc ~/.condarc
-ln -s ~/.dotfiles/.bashrc ~/.bashrc
-ln -s ~/.dotfiles/.bash_aliases ~/.bash_aliases
-ln -s ~/.dotfiles/settings_VScode.json /home/$USER/.config/Code/User/settings.json
-
+bash install.sh
 ```
 
 ## TODO List

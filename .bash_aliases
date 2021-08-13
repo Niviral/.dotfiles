@@ -1,4 +1,4 @@
-alias jlab='source anaconda3/bin/activate && conda activate ML && jupyter lab'
+alias jlab='source anaconda3/bin/activate && jupyter lab'
 
 retardedkex () {
         if [ -f /tmp/.X1-lock ]; then
