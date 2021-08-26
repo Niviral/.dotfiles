@@ -7,11 +7,11 @@ CODIUM=/home/$USER/.config/VSCodium/User/settings.json
 standard_package
 
 echo -e "\n######## .DOTFILES ########\n"
-ln -si $DOTFILE/.zshrc ~/.zshrc
-ln -si $DOTFILE/.gitconfig ~/.gitconfig
-ln -si $DOTFILE/.condarc ~/.condarc
-ln -si $DOTFILE/.bashrc ~/.bashrc  
-ln -si $DOTFILE/.bash_aliases ~/.bash_aliases
+ln -si $DOTFILE/.dotfiles/.zshrc ~/.zshrc
+ln -si $DOTFILE/.dotfiles/.gitconfig ~/.gitconfig
+ln -si $DOTFILE/.dotfiles/.condarc ~/.condarc
+ln -si $DOTFILE/.dotfiles/.bashrc ~/.bashrc  
+ln -si $DOTFILE/.dotfiles/.bash_aliases ~/.bash_aliases
 
 for FILE in $DOTFILE/apps/*.sh;
 do
