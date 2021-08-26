@@ -12,7 +12,7 @@ git clone https://github.com/Niviral/dotFiles.git ~/.dotfiles
 2. Create symlinks in the Home directory to the real files in the repo.
 
 ```
-bash install.sh
+bash dotfiles.sh
 ```
 
 ## TODO List
