@@ -1,6 +1,7 @@
-alias jlab='source anaconda3/bin/activate && jupyter lab'
+alias jlab='jupyter lab'
+alias k='kubectl'
 
-retardedkex () {
+retardedkex() {
         if [ -f /tmp/.X1-lock ]; then
                 rm -rf /tmp/.X*
         fi

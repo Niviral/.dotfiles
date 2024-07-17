@@ -226,3 +226,11 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     # change suggestion color
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
+
+# docker export for arm architecture
+if [ $(uname -m) == "arm64" ]; then
+    export DOCKER_DEFAULT_PLATFORM=linux/amd64
+fi
+
+fpath+=/opt/homebrew/share/zsh/site-functions
+autoload -Uz compinit && compinit
