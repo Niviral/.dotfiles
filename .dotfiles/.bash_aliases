@@ -1,5 +1,7 @@
 alias jlab='jupyter lab'
 alias k='kubectl'
+alias tf='terraform'
+alias vim='nvim'
 
 retardedkex() {
         if [ -f /tmp/.X1-lock ]; then
