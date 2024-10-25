@@ -1,0 +1,11 @@
+return {
+    "NvChad/menu",
+    
+    dependencies = {
+      "nvchad/volt"
+    },
+
+    config = function()
+      require("menu").open()
+    end
+}
