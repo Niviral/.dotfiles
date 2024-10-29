@@ -14,6 +14,12 @@ WORDCHARS=${WORDCHARS//\/} # Don't consider certain characters part of the word
 # sourcing .bash_aliases file
 source $HOME/.bash_aliases 
 
+#Enable plugins. Options: git, rails, ruby (No commas)
+plugins=(git)
+
+#THEME
+#ZSH_THEME=""
+
 
 # hide EOL sign ('%')
 PROMPT_EOL_MARK=""
@@ -234,3 +240,26 @@ fi
 
 fpath+=/opt/homebrew/share/zsh/site-functions
 autoload -Uz compinit && compinit
+
+if [ "$TERM" = "linux" ]; then
+	/bin/echo -e "
+	\e]P0#232136
+	\e]P1#eb6f92
+	\e]P2#9ccfd8
+	\e]P3#f6c177
+	\e]P4#3e8fb0
+	\e]P5#c4a7e7
+	\e]P6#ea9a97
+	\e]P7#e0def4
+	\e]P8#393552
+	\e]P9#eb6f92
+	\e]PA#9ccfd8
+	\e]PB#f6c177
+	\e]PC#3e8fb0
+	\e]PD#c4a7e7
+	\e]PE#ea9a97
+	\e]PF#e0def4
+	"
+	# get rid of artifacts
+	clear
+fi
