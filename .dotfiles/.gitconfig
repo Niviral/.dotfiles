@@ -2,6 +2,6 @@
 	name = Niviral
 	email = 33926911+Niviral@users.noreply.github.com
 [core]
-	editor = codium --wait
+	editor = code --wait
 [init]
 	defaultBranch = master
